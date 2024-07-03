@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Information</title>
+</head>
+<body>
+    <h1>My Details</h1>
+    <p>ID: <span id="my-id"></span></p>
+    <p>Name 1: <span id="name-1"></span></p>
+    <p>Name 2: <span id="name-2"></span></p>
+
+    <script>
+        
+        document.getElementById("my-id").innerHTML = "26015";
+        document.getElementById("name-1").innerHTML = "Shima";
+        document.getElementById("name-2").innerHTML = "Guevalla";
+    </script>
+    <form action="/MyProject/home" method="post">
+    <label>Enter your id to search</label>
+    <input type="text" name="id">
+    <button type="submit">Search</button>
+    </form>
+</body>
+</html>
